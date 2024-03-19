@@ -40,4 +40,5 @@ public:
 	afx_msg void OnClickedConnect();
 	afx_msg void OnClickedDisconnect();
 	afx_msg void OnClickedSend();
+	afx_msg void Filesend_btn();
 };

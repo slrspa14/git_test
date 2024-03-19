@@ -63,6 +63,7 @@ void Cmfctestclient1Dlg::DoDataExchange(CDataExchange* pDX)
 	CDialogEx::DoDataExchange(pDX);
 	DDX_Control(pDX, IDC_EDIT1, m_edit);
 	DDX_Control(pDX, IDC_IPADDRESS1, m_ipaddr);
+	DDX_Control(pDX, IDC_CONNECT);
 }
 
 BEGIN_MESSAGE_MAP(Cmfctestclient1Dlg, CDialogEx)
@@ -229,4 +230,11 @@ void Cmfctestclient1Dlg::OnClickedSend()
 		m_edit.SetWindowText(_T(""));//박스 지워주고
 		m_edit.SetFocus();//키보드 마우스 입력 포커스?
 	}
+}
+
+
+void Cmfctestclient1Dlg::Filesend_btn()
+{
+	// TODO: 여기에 구현 코드 추가.
+
 }
