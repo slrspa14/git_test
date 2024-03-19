@@ -93,7 +93,7 @@ Cmfctestserver1Doc* Cmfctestserver1View::GetDocument() const // 디버그되지 
 	return (Cmfctestserver1Doc*)m_pDocument;
 }
 #endif //_DEBUG
-
+a
 
 // Cmfctestserver1View 메시지 처리기
 
