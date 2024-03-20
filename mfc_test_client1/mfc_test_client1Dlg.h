@@ -4,7 +4,11 @@
 
 #pragma once
 
+#include "opencv2/opencv.hpp"
+
 class CDataSocket;
+
+using namespace cv;
 
 // Cmfctestclient1Dlg 대화 상자
 class Cmfctestclient1Dlg : public CDialogEx
@@ -40,5 +44,16 @@ public:
 	afx_msg void OnClickedConnect();
 	afx_msg void OnClickedDisconnect();
 	afx_msg void OnClickedSend();
-	afx_msg void Filesend_btn();
+private:
+	CListBox list_box;
+public:
+	afx_msg void OnBnClickedSend2();
+	CStatic m_picture;
+	afx_msg void OnDestroy();
+	afx_msg void OnTimer(UINT_PTR nIDEvent);
+
+	VideoCapture* capture;
+	Mat mat_frame;
+	CImage cimage_mfc;
+	afx_msg void OnBnClickedSend3();
 };
