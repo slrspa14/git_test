@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_server_filesend", "test_server_filesend.vcxproj", "{C172676F-295C-452D-ACBD-AE90C03A9E0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{2EF5E34A-CC2B-4CB8-9B88-DE037D71C4F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Debug|x64.ActiveCfg = Debug|x64
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Debug|x64.Build.0 = Debug|x64
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Debug|x86.Build.0 = Debug|Win32
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Release|x64.ActiveCfg = Release|x64
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Release|x64.Build.0 = Release|x64
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Release|x86.ActiveCfg = Release|Win32
+		{C172676F-295C-452D-ACBD-AE90C03A9E0C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE925C8C-6952-489C-900C-A070BCFBFEE8}
+	EndGlobalSection
+EndGlobal
